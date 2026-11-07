@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WhatsApp Kent UAE | Water Purifier Expert Dubai</title>
+<meta name="description" content="Quick reply from our Kent water expert on WhatsApp. Free advice, best price and fast installation across Dubai, Sharjah and Abu Dhabi.">
+<link rel="icon" href="../logo-300x197.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a href="../"><img src="../logo-300x197.webp" alt="KENT Mineral RO Water Purifiers UAE" width="73" height="48"></a>
+    <nav aria-label="Main"><a href="../products/">Products</a><a href="../offers/">Offers</a><a href="../service/">Service</a><a href="../amc/">AMC Plans</a><a href="../why-kent/">Why Kent</a><a href="../contact/" aria-current="page">Contact</a></nav>
+    <div class="call">
+      <a class="num" href="tel:+971507703557" data-track="call">Call +971 50 770 3557</a>
+      <a class="btn btn-wa" href="https://wa.me/971507703557?text=Hi%20KENT%2C%20I%20want%20price%20details%20for%20a%20Kent%20water%20purifier." target="_blank" rel="noopener" data-track="whatsapp">WhatsApp Us</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="crumb"><a href="../">Home</a> › Contact</div>
+    <h1>WhatsApp Our Kent Water Expert</h1>
+    <p>Quick reply, free advice and the best price. Fast installation across the UAE.</p>
+    <div class="row">
+      <a class="btn btn-wa" href="https://wa.me/971507703557?text=Hi%20KENT%2C%20I%20want%20price%20details%20for%20a%20Kent%20water%20purifier." target="_blank" rel="noopener" data-track="whatsapp">WhatsApp for best price</a>
+      <a class="btn btn-light" href="tel:+971507703557" data-track="call">Call now</a>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap two">
+    <div>
+      <h2>Get Your Kent Water Purifier Today</h2>
+      <p class="intro">Talk to our water expert on WhatsApp: free advice, best price, fast installation.</p>
+      <ul class="ticks">
+        <li><span><b>WhatsApp:</b> <a href="https://wa.me/971507703557" target="_blank" rel="noopener" data-track="whatsapp">+971 50 770 3557</a></span></li>
+        <li><span><b>Call:</b> <a href="tel:+971507703557" data-track="call">+971 50 770 3557</a></span></li>
+        <li><span><b>Email:</b> <a href="mailto:info@kentuae.com">info@kentuae.com</a></span></li>
+        <li><span><b>Office:</b> Office 2, Hassan Ali Abdullah Al Awadhi Building, opp. Radisson Blu Hotel, Sharjah</span></li>
+      </ul>
+    </div>
+    <form class="form" id="lead" novalidate>
+      <h3 style="font-size:22px;margin-bottom:12px">Send your details</h3>
+      <div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required placeholder="e.g. Ahmed"></div>
+      <div class="field"><label for="mobile">Mobile number</label><input id="mobile" name="mobile" type="tel" inputmode="tel" autocomplete="tel" required placeholder="05X XXX XXXX"></div>
+      <div class="field"><label for="area">Area</label>
+        <select id="area" name="area"><option>Dubai</option><option>Sharjah</option><option>Abu Dhabi</option><option>Ajman</option><option>Ras Al Khaimah</option><option>Umm Al Quwain</option><option>Fujairah</option></select></div>
+      <button class="btn btn-main" type="submit">Send on WhatsApp</button>
+      <div class="done" id="done" hidden>Thank you! Tap <a id="waDone" href="#" target="_blank" rel="noopener"><b>send on WhatsApp</b></a> to confirm, or we will call you shortly.</div>
+    </form>
+  </div>
+</section>
+<script>
+document.getElementById("lead").addEventListener("submit", e => {
+  e.preventDefault();
+  const f = e.target, name = f.name.value.trim(), mobile = f.mobile.value.trim();
+  f.name.setCustomValidity(name ? "" : "Please enter your name");
+  f.mobile.setCustomValidity(/^[+0-9\s-]{8,}$/.test(mobile) ? "" : "Please enter a valid mobile number");
+  if (!f.reportValidity()) return;
+  const msg = `Hi KENT, I want a water purifier.\nName: ${name}\nMobile: ${mobile}\nArea: ${f.area.value}`;
+  const url = `https://wa.me/971507703557?text=${encodeURIComponent(msg)}`;
+  document.getElementById("waDone").href = url;
+  document.getElementById("done").hidden = false;
+  window.open(url, "_blank", "noopener");
+});
+</script>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>We usually reply within minutes</h2>
+    <div class="row">
+      <a class="btn btn-wa" href="https://wa.me/971507703557?text=Hi%20KENT%2C%20I%20want%20price%20details%20for%20a%20Kent%20water%20purifier." target="_blank" rel="noopener" data-track="whatsapp">WhatsApp us</a>
+      <a class="btn btn-light" href="tel:+971507703557" data-track="call">Call +971 50 770 3557</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <nav aria-label="Footer"><a href="../">← Back to home</a><a href="../products/">Products</a><a href="../offers/">Offers</a><a href="../service/">Service</a><a href="../amc/">AMC Plans</a><a href="../why-kent/">Why Kent</a><a href="../contact/">Contact</a><a href="../privacy/">Privacy policy</a></nav>
+    <div>Kent UAE · Office 2, Hassan Ali Abdullah Al Awadhi Building, opp. Radisson Blu Hotel, Sharjah · info@kentuae.com · +971 50 770 3557</div>
+  </div>
+</footer>
+
+<div class="bar">
+  <a class="btn btn-call" href="tel:+971507703557" data-track="call">Call now</a>
+  <a class="btn btn-wa" href="https://wa.me/971507703557?text=Hi%20KENT%2C%20I%20want%20price%20details%20for%20a%20Kent%20water%20purifier." target="_blank" rel="noopener" data-track="whatsapp">WhatsApp</a>
+</div>
+</body>
+</html>
